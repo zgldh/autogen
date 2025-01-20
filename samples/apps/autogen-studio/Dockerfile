@@ -2,7 +2,7 @@ FROM python:3.10
 
 WORKDIR /code
 
-RUN pip install -U gunicorn autogenstudio
+RUN pip install -U gunicorn autogenstudio autogen
 
 RUN useradd -m -u 1000 user
 USER user
